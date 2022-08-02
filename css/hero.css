@@ -89,7 +89,7 @@ background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/
     text-align: center;
 }
 .policy .sub-title {
-    margin-bottom: 6rem;
+    margin-bottom: 16rem;
 }
 .policy__title {
     font-family: var(--title-font);
@@ -97,7 +97,7 @@ background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/
     margin-bottom: 2rem;
 }
 .policy__block {
-    max-width: 50rem;
+    max-width: 52rem;
     margin: 0 auto;
 }
 .policy__item:not(:last-child) {
@@ -106,9 +106,7 @@ background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/
 .policy .text {
     margin-bottom: 3rem;
 }
-.policy__img {
-    display: none;
-}
+
 
 
 
@@ -176,19 +174,12 @@ background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/
 
 
 
-    .policy__box {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .policy__img {
-        display: block;
-        width: 50%;
-        max-height: 50rem;
-        object-fit: cover;
-    }
+
     .policy__list {
+        padding: 0 7rem;
         text-align: left;
+        display: flex;
+        justify-content: space-between;
     }
     .policy__block .btn {
         margin-left: 0;
@@ -240,6 +231,12 @@ background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/
     .question__sub-title {
         background-color: var(--third-brand-color);
         padding: 1rem;
+    }
+
+
+
+    .policy__item:not(:last-child) {
+        margin-bottom:0;
     }
 }
 
